@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    /* margin: auto; */
+}
+#logInForm{
+    width: 80%;
+    border: solid salmon;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: auto;
+
+}
+
+#logInForm > input{
+    padding: 8px;
+    font-size: 40px;
+}
